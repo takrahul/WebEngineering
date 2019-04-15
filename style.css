@@ -10,7 +10,7 @@ body{
 .topnav {
     overflow: hidden;
     background-color: rgb(179, 180, 180);
-  }
+}
   
   .topnav a {
     float: left;
@@ -69,8 +69,39 @@ body{
     .topnav input[type=text] {
       border: 1px solid #ccc;  
     }
-}
+    .firstpara{
+      width: 100%;
+    }
 
+    .list1{
+      width: 100%;
+      text-align: start;
+    }
+
+    .change{
+      width: 100%;
+    }
+
+    img#logo1{
+      width: 300px;
+      float: left;
+      margin-right: 20px;
+      border: 2px dotted rgb(206, 206, 206);
+      padding: 20px;
+      
+    }
+    .list1{
+      float: left;
+    }
+
+    .hider{
+      float: left;
+    }
+  }  
+
+.mover{
+  float: right;
+}
 
 h1{
     font-size: 4.5em;
@@ -107,17 +138,22 @@ div.register{
     background-color: #ddd;
     width: 300px;
     padding: 30px;
-    float: right;
+    float: left;
 }
 
 div.register h1{
     color: rgb(72, 72, 101);
 }
 
+.parja{
+  float: right;
+}
+
 .list1{
     padding: 5px;
     margin-top: 40px;
-    font-size: 13px;
+    font-size: 15px;
+    list-style-type: none;
 }
 
 .paratwo{
